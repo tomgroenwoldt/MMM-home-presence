@@ -1,5 +1,5 @@
 {
-  "name": "homepresence",
+  "name": "MMM-Home-Presence",
   "version": "1.0.0",
   "description": "IP presence monitor module for the Magic Mirror project.",
   "main": "homepresence.js",
@@ -7,16 +7,13 @@
     "type": "git",
     "url": "git+https://github.com/tomgroenwoldt/MMM-home-presence.git"
   },
-  "keywords": [
-    "monitor",
-    "magic mirror",
-    "smart mirror",
-    "home presence",
-  ],
   "author": "Tom Groenwoldt",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tomgroenwoldt/MMM-home-presence/issues"
   },
-  "homepage": "https://github.com/tomgroenwoldt/MMM-home-presence#readme"
+  "homepage": "https://github.com/tomgroenwoldt/MMM-home-presence#readme",
+  "dependencies": {
+    "ping": "latest"
+  }
 }
