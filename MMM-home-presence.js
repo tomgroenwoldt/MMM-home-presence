@@ -1,4 +1,4 @@
-Module.register("homepresence", {
+Module.register("MMM-home-presence", {
   // Default module config.
   defaults: {
     IPMap: {
